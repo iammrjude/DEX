@@ -15,16 +15,17 @@ An Automated Market Maker Decentralized Exchange Protocol
 
 
 - DEPLOY:
+
     ```$ truffle migrate --reset```
     
     After sucessfully compiling all the contracts, the use the command above to deploy to development blockchain (Ganache)
     
     Alternatively you can use the commands below to deploy to public network of your choice
     
-        ```$ truffle migrate --reset --network mainnet```
+            $ truffle migrate --reset --network mainnet
         
-        ```$ truffle migrate --reset --network rinkeby```
+            $ truffle migrate --reset --network rinkeby
         
-        ```$ truffle migrate --reset --network ropsten```
+            $ truffle migrate --reset --network ropsten
         
-        ```$ truffle migrate --reset --network kovan```
+            $ truffle migrate --reset --network kovan
